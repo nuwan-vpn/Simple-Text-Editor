@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.dep11.controller.AboutFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.controller.AboutFormController">
+   <children>
+      <ImageView fitHeight="164.0" fitWidth="260.0" layoutX="193.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/texteditor.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="207.0" prefHeight="32.0" prefWidth="240.0" text=" Text Editor" textFill="#171616">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="286.0" layoutY="246.0" prefHeight="16.0" prefWidth="56.0" text="v1.0.0" />
+      <Label alignment="CENTER" layoutX="141.0" layoutY="284.0" prefHeight="19.0" prefWidth="330.0" text=" Simple JavaFX Text Editor. Just for experiment !" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="91.0" layoutY="324.0" prefHeight="16.0" prefWidth="423.0" text="Copyright  © 2023 DEP11-Nuwan Vidanapathiranage. All Rights Reserved.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
