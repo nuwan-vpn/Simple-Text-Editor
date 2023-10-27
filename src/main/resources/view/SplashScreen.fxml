@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.controller.SplashScreenController">
+<AnchorPane prefHeight="309.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.controller.SplashScreenController">
    <children>
-      <ImageView fitHeight="172.0" fitWidth="205.0" layoutX="213.0" layoutY="20.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="172.0" fitWidth="205.0" layoutX="180.0" layoutY="20.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../image/loading.gif" />
          </image>
       </ImageView>
+      <Label fx:id="lblStatus" alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="212.0" prefHeight="16.0" prefWidth="146.0" text="Loading ..." />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="238.0" prefHeight="16.0" prefWidth="516.0" text="Copyright  © 2023 DEP11-Nuwan Vidanapathiranage. All Rights Reserved.">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
