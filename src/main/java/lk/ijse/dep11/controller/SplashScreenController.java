@@ -39,7 +39,7 @@ public class SplashScreenController {
             }
         });
 
-        var keyFrame4 = new KeyFrame(Duration.millis(500), new EventHandler<ActionEvent>() {
+        var keyFrame4 = new KeyFrame(Duration.millis(2000), new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 try {
